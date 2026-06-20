@@ -1,0 +1,14 @@
+rootUser: admin
+rootPassword: Minio@123
+
+persistence:
+  enabled: true
+  storageClass: longhorn
+  size: 3Gi
+
+service:
+  type: LoadBalancer
+
+resources:
+  requests:
+    memory: 512Mi
