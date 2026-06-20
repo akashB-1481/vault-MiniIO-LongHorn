@@ -1,0 +1,14 @@
+server:
+  dataStorage:
+    enabled: true
+    storageClass: longhorn
+    size: 3Gi
+
+  standalone:
+    enabled: true
+
+ui:
+  enabled: true
+
+service:
+  type: LoadBalancer
